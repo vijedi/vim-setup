@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. functions.sh
+. ./lib/functions.sh
 
 install_plugin 'common' 'start' 'https://github.com/tpope/vim-sensible.git' 'vim-sensible'
 install_plugin 'common' 'start' 'https://github.com/tpope/vim-surround.git' 'vim-surround'
