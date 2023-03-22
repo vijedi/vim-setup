@@ -5,11 +5,13 @@
 install_plugin 'common' 'start' 'https://github.com/tpope/vim-sensible.git' 'vim-sensible'
 install_plugin 'common' 'start' 'https://github.com/tpope/vim-surround.git' 'vim-surround'
 install_plugin 'common' 'start' 'https://github.com/tpope/vim-vinegar.git' 'vim-vinegar'
+install_plugin 'common' 'start' 'https://github.com/tpope/vim-repeat.git' 'vim-repeat'
 install_plugin 'common' 'start' 'https://github.com/vim-airline/vim-airline.git' 'vim-airline'
 install_plugin 'common' 'start' 'https://github.com/editorconfig/editorconfig-vim.git' 'editorconfig-vim'
 install_plugin 'common' 'start' 'https://github.com/embear/vim-localvimrc.git' 'vim-localvimrc'
 install_plugin 'common' 'start' 'https://github.com/mileszs/ack.vim.git' 'ack.vim'
 install_plugin 'common' 'start' 'https://github.com/ctrlpvim/ctrlp.vim.git' 'ctrlp.vim'
+install_plugin 'common' 'start' 'https://github.com/preservim/vim-markdown.git' 'vim-markdown'
 install_plugin 'colors' 'start' 'https://github.com/joshdick/onedark.vim.git' 'one-dark'
 
 mkdir -p ~/.vim/plugin
