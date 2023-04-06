@@ -62,3 +62,6 @@ nmap ø :Lex<CR>
 " CTRL P Config
 let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:10,results:30'
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
+" Disable markdown folding. It ends up being more annoying than useful
+let g:vim_markdown_folding_disabled = 1
