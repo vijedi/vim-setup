@@ -19,4 +19,7 @@ touch ~/.vim/plugin/load_plugins.vim
 
 if ! grep -q colorscheme ~/.vim/plugin/load_plugins.vim; then 
     echo 'colorscheme onedark' >> ~/.vim/plugin/load_plugins.vim
+    echo 'hi Normal guibg=NONE ctermbg=NONE' >> ~/.vim/plugin/load_plugins.vim
+    echo 'hi EndOfBuffer guibg=NONE ctermbg=NONE' >> ~/.vim/plugin/load_plugins.vim
+
 fi

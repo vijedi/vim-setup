@@ -22,7 +22,6 @@ filetype plugin indent on
 " Color schemes
 " Note color scheme one-dark is set as a post-install action
 set bg=dark
-hi Normal guibg=NONE ctermbg=NONE
 
 " Remapping keys
 let mapleader = " "
