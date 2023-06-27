@@ -64,3 +64,6 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 
 " Disable markdown folding. It ends up being more annoying than useful
 let g:vim_markdown_folding_disabled = 1
+
+" Allow vim rc to persist beyond a session
+let g:localvimrc_persistent = 2
