@@ -8,3 +8,4 @@ install_plugin 'lang' 'opt' 'https://github.com/vim-ruby/vim-ruby.git' 'vim-ruby
 install_plugin 'lang' 'opt' 'https://github.com/pangloss/vim-javascript' 'vim-javascript'
 install_plugin 'lang' 'opt' 'https://github.com/prettier/vim-prettier.git' 'vim-prettier'
 install_plugin 'lang' 'opt' 'https://github.com/tpope/vim-liquid.git' 'vim-liquid'
+install_plugin 'lang' 'opt' 'https://github.com/evanleck/vim-svelte.git' 'vim-svelte'

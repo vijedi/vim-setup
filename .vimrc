@@ -32,20 +32,6 @@ nnoremap <silent><leader>% :vs<CR>
 nnoremap <silent><leader>" :split<CR>
 nnoremap <silent><leader>C :nohl<CR>
 
-" Wrapped line navigation
-noremap <buffer><silent><Up> gk
-noremap <buffer><silent><Down> gj
-noremap <buffer><silent><Home> g<Home>
-noremap <buffer><silent><End> g<End>
-inoremap <buffer><silent><Up> <C-o>gk
-inoremap <buffer><silent><Down> <C-o>gj
-inoremap <buffer><silent><Home> <C-o>g<Home>
-inoremap <buffer><silent><End> <C-o>g<End>
-noremap <silent> k gk
-noremap <silent> j gj
-noremap <silent> 0 g0
-noremap <silent> $ g$
-
 " ACK config
 if executable('ag')
 	let g:ackprg = 'ag --vimgrep'

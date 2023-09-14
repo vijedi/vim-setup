@@ -7,3 +7,4 @@ fi
 
 ./install_core_plugins.sh
 ./install_lang_plugins.sh
+./install_coc.sh
