@@ -43,6 +43,7 @@ nnoremap <Leader>A :Ack!<CR>
 " Netrw Config
 let g:netrw_winsize = 30
 nmap ø :Lex<CR>
+let g:netrw_keepdir = 0
 
 " CTRL P Config
 let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:10,results:30'
