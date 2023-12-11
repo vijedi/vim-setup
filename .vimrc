@@ -1,4 +1,6 @@
 " Core Vim Config
+filetype plugin indent on
+
 syntax on
 
 set display+=lastline
@@ -16,8 +18,6 @@ set wrap
 
 set nolist
 set noswapfile
-
-filetype plugin indent on
 
 " Color schemes
 " Note color scheme one-dark is set as a post-install action

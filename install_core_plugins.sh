@@ -13,6 +13,7 @@ install_plugin 'common' 'start' 'https://github.com/mileszs/ack.vim.git' 'ack.vi
 install_plugin 'common' 'start' 'https://github.com/ctrlpvim/ctrlp.vim.git' 'ctrlp.vim'
 install_plugin 'common' 'start' 'https://github.com/preservim/vim-markdown.git' 'vim-markdown'
 install_plugin 'common' 'start' 'https://github.com/tpope/vim-fugitive.git' 'vim-fugitive'
+install_plugin 'common' 'start' 'https://github.com/mechatroner/rainbow_csv.git' 'rainbow_csv'
 install_plugin 'colors' 'start' 'https://github.com/joshdick/onedark.vim.git' 'one-dark'
 
 mkdir -p ~/.vim/plugin
